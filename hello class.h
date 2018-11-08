@@ -13,8 +13,8 @@ class Hello
  
 int main()
 {
-    Hello c;    // Creating an object
-    c.sayHello();  // Calling the function
+    Hello c;   
+    c.sayHello(); 
  
     return 0;
 }
