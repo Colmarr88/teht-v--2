@@ -1,0 +1,45 @@
+#include <stdio.h> 
+
+  
+
+int main() 
+
+{ 
+
+    /* local variable definition */ 
+
+   int a = 0; 
+
+  
+
+   /* do loop execution */ 
+
+   do { 
+
+       if ((a%2) == 0){ 
+
+            
+
+        printf("Tere %d\n", a+1); 
+
+            
+
+       } 
+
+       else { 
+
+          printf("Maailma %d\n", a+1); 
+
+       } 
+
+       
+
+      a = a + 1; 
+
+   }while( a < 10 ); 
+
+  
+
+    return 0; 
+
+} 
